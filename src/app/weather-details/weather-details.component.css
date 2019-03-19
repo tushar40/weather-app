@@ -1,0 +1,9 @@
+.fetch {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+}

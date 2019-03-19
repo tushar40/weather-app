@@ -1,0 +1,15 @@
+.coord_inputs{
+    margin: 2%;
+}
+
+.coord_inputs label{
+    margin: 1%;
+    font-family: sans-serif;
+}
+
+.coord_inputs label input{
+    padding: 0.8%;
+}
+
+
+  
