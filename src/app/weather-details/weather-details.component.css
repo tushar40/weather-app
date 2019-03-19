@@ -1,5 +1,10 @@
 .fetch {    
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* flex-flow: column wrap; */
+    flex-direction: column;
 }
 
 .fetch button{
@@ -8,6 +13,6 @@
     border: none;
     color: white;
     padding: 16px;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 50%;
 }

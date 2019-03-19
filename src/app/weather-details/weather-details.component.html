@@ -1,5 +1,28 @@
 <div class="fetch">
   <button (click)="fetchd()" >Fetch</button>
   <p>weather-details works! {{latitude}} ,{{longitude}}</p>
-  <!-- <p *ngIf='fetched'>{{ response.base }}</p> -->
+  <div *ngIf='fetched'>
+    <div>
+        <h4>Weather:</h4>
+        <p>id: {{ response.weather[0].id }}</p>
+        <p>main: {{ response.weather[0].main }}</p>
+        <p>description: {{ response.weather[0].description }}</p>
+    </div>
+    <h4>Base: {{response.base}}</h4>
+    <div>
+        <h4>Main:</h4>
+        <p>temperature: {{ response.main.temp }}</p>
+        <p>pressure: {{ response.main.pressure }}</p>
+        <p>humidity: {{ response.main.humidity }}</p>
+        <p>sea level: {{ response.main.sea_level }}</p>
+    </div>
+    <div>
+        <h4>Wind:</h4>
+        <p>speed: {{ response.wind.speed }}</p>
+        <p>degree: {{ response.wind.deg }}</p>
+    </div>
+    <h4>Clouds: {{ response.clouds.all }}</h4>
+    <h4>Country: {{ response.sys.country }}</h4>
+    <!-- <h4>{{response.coordinate}}</h4> -->
+  </div>
 </div>
