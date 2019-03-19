@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 import { WeatherResponse } from './weather_response';
 
 
-const weather_url="https://samples.openweathermap.org/data/2.5/weather?appid=b6907d289e10d714a6e88b30761fae22";
+const weather_url="http://api.openweathermap.org/data/2.5/weather?APPID=3477c01ef37b20f5aad8fcd3b8f0e272";
 @Injectable()
 export class WeatherService {
 
